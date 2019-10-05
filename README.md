@@ -129,7 +129,30 @@ Genesis Block
 *   Currently the miners fees is 12.5 BTC for a bitcoin.
 *   This is how new coin is maintained in bitcoin.
 
+# Beyond Bitcoin
+*  Bitcoin blockchain is open sourced and the entire code is available on Github.
+* During the initial year of 2009 this code became the reason of launching more then 300 Cryptocurrencies in the market.
+* Bitcoin supports special feature called as Scripts for Conditional transfer of values
+* Ethereum Blockchain extended the scripting feature into a full blown code execution framwork called smart contract.
 
+### Smart Contracts
+* A smart contract orivude the very powerful capability of code execution for embadding business logic on the blockchain.
 
+### Types of Blockchain
+* Type 1 Only Cryptocurrency deals with the currency and the currency chain specially designed for the currency trade and mining.
+* Type 2 Supports Cryptocurrency and a Business logic layer supported by code execution example ethereum.
+* Type 3 Only Business logic no cryptocurrency example The Linux Foundation HyperLedger.
+ 
+### Blockchain Categories
+*   **Public** Bitcoin Blockchain is publically avaialable and anyone in the Blockchain can add new blocks in the blockchain, thus bitcoin is an example of Public Blockchain Class.
+* Transaction blocks and participants all are open sources you can also create new coin digital currency by modifying the bitcoin code.
+* **Private** Access to the blockchain is limited to a specific group of people for example
+* Those participant within an organization This restricttion helps in simplifying the normal operations such as block creation  and contingence model.
+* **Permissioned** Blockchain also called consortium blockchain, It is meant for the consortium and collaboration parties to transact on a blockchain for ease of governance, proverance, and accountability.
+*   For example a Consortium of all Automobile companies and healthcare organizations.
+* It have the benifits of the public blockchain with allowing only users with permission to collaborate and transact.
 
+#### Summary
+* Significant innovations such as smart contract have opened up broader applications of Blockchain technology.
+* It allows private and permissioned blockchain allow for controlled access to the blockcahin enabling many diverse business models.
 
