@@ -129,7 +129,7 @@ Genesis Block
 *   Currently the miners fees is 12.5 BTC for a bitcoin.
 *   This is how new coin is maintained in bitcoin.
 
-# Beyond Bitcoin
+## Beyond Bitcoin
 *  Bitcoin blockchain is open sourced and the entire code is available on Github.
 * During the initial year of 2009 this code became the reason of launching more then 300 Cryptocurrencies in the market.
 * Bitcoin supports special feature called as Scripts for Conditional transfer of values
@@ -155,4 +155,60 @@ Genesis Block
 #### Summary
 * Significant innovations such as smart contract have opened up broader applications of Blockchain technology.
 * It allows private and permissioned blockchain allow for controlled access to the blockcahin enabling many diverse business models.
+
+# Ethereum Blockchain
+* Bitcoin blockchain is the mother of all blockchains. 
+* It was intended for peer to peer transfer of value and it does that well. Around 2013, a framework for code execution was introduced by Ethereum Founders. The centerpiece and thrust of this Ethereum blockchain is a smart contract. 
+
+<img src="img/stackDiff.jpg">
+
+* Consider this togged diagram comparing Bitcoin and Ethereum blockchain. 
+*   On the left is the Bitcoin blockchain and a wallet application for initiating transactions. 
+*   On the right is Ethereum that took a significant step towards transforming the blockchain into a computational framework that opened up a whole world of opportunities in the decentralized realm. 
+
+### Learning Objectives
+*   high level the innovation of the ethereum blockchain, namely the smart contract. 
+*   Illustrate ethereum blockchain protocol, 
+*   Structural elements, and operational aspects. 
+*   Demonstrate the concept of gas, the fuel or the payment model for code execution and the incentive model for the Ethereum blockchain.
+
+## Smart Contracts
+*   Ethereum supports smart contracts and of virtual machine on which smart contracts execute. 
+*   Smart contracts in turn enable decentralized application that accomplish more than a transfer of value. 
+*   Efficient automation of decentralized application such as supply chain. 
+*   A smart contract is a piece of code deployed in the blockchain node. 
+*   Execution of a smart contract is initiated by a message embedded in the transaction. 
+*   Digital currency transfer request simple addition and subtraction. 
+*   Ethereum enables transaction that may carry out more sophisticated operations. 
+    *   For example, a transaction could require a conditional transfer, 
+    *   it may require some evaluation, 
+    *   it may need more than one signature for transfer of assets, or it may involve waiting for a specific time or date. 
+*   Example
+    *   An auction bidding smart contract could execute this logic. 
+    *   If the age of a bidder is greater than 18 and the bid is greater than the minimum bid, then, accept the bid, or else reject the bid. 
+    *   This can be done by a smart contract. 
+### What does the smart contract look like? How do you write a smart contract? 
+*   Structurally, a smart contract resembles a class definition in an object oriented design. 
+*   It has data, functions or methods with modifiers public or private, along with getter and set of functions. 
+*   Specific programming languages have been designed for coding smart contracts. Solidity is one such language. 
+
+<img src="img/solidity.jpg">
+
+*   Let's examine a simple Solidity smart contract to understand its structure. 
+*   First line with pragma indicates the version of the solidity language. 
+*   The contract's name is in the first line. 
+*   This particular contract is for one integer storage. 
+*   The data for the integer is defined with type a name, uint StoredData. 
+*   Two functions are defined for writing and reading the data. Set and get. 
+### Code execution. 
+*   Where does the code in the smart contract get executed? Where is it located in a node? We need a computational infrastructure to execute any arbitrary code. 
+*   Every node in Ethereum network should be able to execute the code irrespective of that underlying type of hardware or operating system. Enter Ethereum Virtual Machine, EVM. 
+*   An EVM provides a run anywhere obstruction layer for the contract code. 
+*   A smart contract written a high level programming language is translated into EVM byte code, and then, deployed on the Ethereum Virtual Machine, EVM. 
+*   Every node will host the same smart contract codes on the EVM. 
+### Summary
+*   Smart contracts add a layer of logic and computation to the trust infrastructure supported by the blockchain. Smart contracts allow for execution of code. 
+*    Enhancing the basic value transfer capability of the Bitcoin blockchain. 
+*   The code for this smart contract is written in a high level language like Solidity and compiled into byte code. 
+*   The code for the smart contracts is executed on a special structure known as Ethereum Virtual Machine.
 
